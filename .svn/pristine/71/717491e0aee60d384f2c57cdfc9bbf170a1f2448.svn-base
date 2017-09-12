@@ -1,0 +1,47 @@
+$(function(){
+    //修改个人资料
+    var email=$('input[name="email"]'),
+        intro=$('textarea[name="intro"]');
+    $('.submit').button().click(function(){
+        $.ajax({
+            url:ThinkPHP['MODULE']+'/Setting/updateUser',
+            type:'POST',
+            data:{
+                email:email.val(),
+                intro:intro.val()
+            },
+            beforeSend:function(){
+                $('#loading').html('正在修改中...').dialog('open');
+            },
+            success:function(data,response,status){
+                if(response=='success'){
+                    $('#loading').css('background','url('+ThinkPHP['IMG']+'/success.gif) no-repeat 20px 65%').html('资料修改成功...');
+                    setTimeout(function(){
+                        $('#loading').css('background','url('+ThinkPHP['IMG']+'/loading.gif) no-repeat 20px 65%').html('...').dialog('close');
+                    },500);
+                }
+            }
+        });
+    });
+    //裁剪图片
+    $('#face').Jcrop({
+        onChange:showPreview,
+        onSelect:showPreview,
+        //锁定纵横比
+        aspectRatio:1
+    });
+    function showPreview(coords){
+        if(parseInt(coords.w) > 0){
+            //计算预览区域图片缩放的比例，通过计算显示区域的宽度(与高度)与剪裁的宽度(与高度)之比得到
+            var rx = $("#preview_box").width() / coords.w;
+            var ry = $("#preview_box").height() / coords.h;
+            //通过比例值控制图片的样式与显示
+            $("#crop_preview").css({
+                width:Math.round(rx * $("#face").width()) + "px",	//预览图片宽度为计算比例值与原图片宽度的乘积
+                height:Math.round(rx * $("#face").height()) + "px",  //预览图片高度为计算比例值与原图片高度的乘积
+                marginLeft:"-" + Math.round(rx * coords.x) + "px",
+                marginTop:"-" + Math.round(ry * coords.y) + "px"
+            });
+        }
+    }
+});

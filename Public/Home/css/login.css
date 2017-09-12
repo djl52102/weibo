@@ -1,0 +1,224 @@
+@charset "UTF-8";
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+/*
+自定义JQuery UI皮肤
+*/
+.ui-dialog-titlebar{
+    background:url(../img/ui_header_bg.png) !important;
+    padding:0 !important;
+    height:37px;!important;
+    border:1px solid #fff !important;
+    border-bottom:none !important;
+    border-radius:0 !important;
+}
+.ui-dialog{
+    padding:0 !important;
+    border:1px solid #666 !important;
+    border-radius:0 !important;
+    overflow:visible !important;
+}
+.ui-menu-item {
+    padding:0 !important;
+    width:100% !important;
+}
+.ui-menu-item{
+    width:100% !important;
+    height:30px !important;
+    text-indent:5px !important;
+    line-height:30px !important;
+    display:inline-block !important;
+    color:#666 !important;
+}
+.ui-menu-item a.ui-state-focus{
+    color:#036 !important;
+    background:url(../img/menu_bg.png) !important;
+}
+.ui-dialog-title{
+    color:#fff !important;
+    height:37px !important;
+    line-height:35px !important;
+    font-size:14px !important;
+    text-indent:10px !important;
+}
+.ui-dialog-buttonset button{
+    background:url(../img/button.png) !important;
+    border:none !important;
+    color:#fff !important;
+    height:35px !important;
+}
+.ui-dialog-buttonset button:hover{
+    background:url(../img/button_hover.png) !important;
+}
+.ui-dialog-content{
+    width:100% !important;
+}
+#register input.text{
+    width:270px;
+    height:25px;
+    padding:5px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    background:#fff;
+}
+#register span.star{
+    color:red;
+}
+#register span.succ{
+    width:28px;
+    display:inline-block;
+    background:url(../img/success.gif) no-repeat bottom;
+}
+#register span.loading{
+    width:28px;
+    display:inline-block;
+    background:url(../img/loading_form.gif) no-repeat bottom;
+}
+#verify_register{
+    padding:0 0 020px;
+    position:relative;
+    top:15px;
+}
+#verify_register input[type="text"]{
+    width:85px;
+    height:25px;
+    padding:5px;
+    border-radius:3px;
+    border:1px solid #ccc;
+    background:#fff;
+    color:#333;
+}
+#verify_register a{
+    color:#036;
+    text-decoration:none;
+    font-size:16px;
+}
+#verify_register a:hover{
+    text-decoration:underline;
+}
+#verify_register span.star{
+    color:red;
+}
+#verify_register .verifyimg{
+    cursor:pointer;
+}
+
+#loading{
+    background:url(../img/loading.gif) no-repeat 20px center;
+    line-height:22px;
+    font-size:14px;
+    font-weight:bold;
+    text-indent:40px;
+    color:#666;
+}
+#register ol.reg_error{
+    margin:0;
+    padding:0 0 0 20px;
+    color:red;
+    font-size:14px;
+}
+#register ol.reg_error li{
+    height:20px;
+}
+
+#header{
+    width:198px;
+    height:60px;
+    background:url(../img/logo.png) no-repeat;
+    margin:0 auto;
+    position:relative;
+    top:150px;
+}
+#main{
+    text-align:center;
+    position:relative;
+    top:200px;
+}
+#login input[type="text"],#login input[type="password"]{
+    width:250px;
+    height:25px;
+    line-height:25px;
+    background:#000;
+    border:1px solid #d2d2d2;
+    color:#fff;
+    font-size:18px;
+    font-family:Tahoma;
+    padding:12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    margin-right:10px;
+}
+#login input[type="submit"]{
+    width:150px;
+    height:50px;
+    top:-4px;
+    font-size:24px;
+    font-family:黑体;
+    background:url(../img/login_button.png);
+    color:#fff;
+    border:none;
+}
+#login input[type="submit"]:hover{
+    background:url(../img/login_button_hover.png);
+}
+#login .bottom{
+    width:380px;
+    margin:0 auto;
+    text-align:right;
+    padding:10px;
+    font-size:14px;
+    color:#fff;
+}
+#login .bottom a{
+    color:#eee;
+    text-decoration:none;
+    text-shadow:1px 1px 1px #333
+}
+#login .bottom a:hover{
+    text-decoration:underline;
+}
+#login span.username,#login span.password{
+    display:inline-block;
+    width:290px;
+    position:relative;
+}
+#login span.username label.error,#login span.password label.error{
+    color:#f60;
+    position:absolute;
+    top:17px;
+    right:20px;
+}
+#login #auto{
+    position:relative;
+    top:2px;
+}
+#login span.password label.auto{
+    font-size:14px;
+    color:#eee;
+    text-shadow: 1px 1px 1px #333;
+    position:absolute;
+    top:60px;
+    left:-100px;
+}
+#footer{
+    width:100%;
+    height:40px;
+    background:#000;
+    position:absolute;
+    bottom:0;
+    opacity:0.4;
+    -moz-opacity: 0.4;
+    filter:alpha(opacity=40);
+}
+.footer-text{
+    width:100%;
+    color:#eee;
+    text-align:center;
+    font-size:13px;
+    position:absolute;
+    bottom:0
+}

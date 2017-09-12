@@ -1,0 +1,577 @@
+[ 2017-06-12T19:02:29+08:00 ] 123.119.216.11 /weibo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-06-12T19:02:30+08:00 ] 123.119.216.11 /weibo/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2017-06-12T19:02:30+08:00 ] 123.119.216.11 /weibo/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-06-12T19:02:39+08:00 ] 101.226.89.120 /weibo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-06-12T19:02:39+08:00 ] 101.226.89.120 /weibo/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-06-12T19:02:40+08:00 ] 101.226.89.121 /weibo/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-06-12T19:02:42+08:00 ] 61.151.218.118 /weibo/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-06-12T19:02:42+08:00 ] 180.163.1.46 /weibo/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2017-06-12T19:02:43+08:00 ] 61.151.218.118 /weibo/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-06-12T19:02:59+08:00 ] 123.119.216.11 /weibo/Home/User/checkVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `weibo_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/default/weibo/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/default/weibo/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [2] sha1() expects at least 1 parameter, 0 given /data/wwwroot/default/weibo/ThinkPHP/Library/Think/Model.class.php 第 1154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-06-12T19:02:59+08:00 ] 123.119.216.11 /weibo/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `weibo_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/default/weibo/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id`,`username`,`password`,`last_login`,`face` FROM `weibo_user` WHERE `username` = '鸣人' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `weibo_user` SET `last_login`='1497265379',`last_ip`='2071451659' WHERE `id` = '51' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-06-12T19:03:00+08:00 ] 123.119.216.11 /weibo/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.content,a.content_over,a.create,a.uid,a.reid,b.username,b.face,b.domain FROM weibo_topic a,weibo_user b WHERE ( a.uid=b.id ) ORDER BY a.create DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `weibo_image` [ RunTime:0.0003s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='148' )  [ RunTime:0.0001s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='147' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='146' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='145' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='144' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='143' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='142' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='141' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='140' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='122' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.content,a.content_over,a.create,a.uid,a.reid,a.recount,b.username,b.face,b.domain FROM weibo_topic a,weibo_user b WHERE ( a.uid=b.id AND a.id=147 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='147' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.content,a.content_over,a.create,a.uid,a.reid,a.recount,b.username,b.face,b.domain FROM weibo_topic a,weibo_user b WHERE ( a.uid=b.id AND a.id=145 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='145' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.content,a.content_over,a.create,a.uid,a.reid,a.recount,b.username,b.face,b.domain FROM weibo_topic a,weibo_user b WHERE ( a.uid=b.id AND a.id=140 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='140' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.content,a.content_over,a.create,a.uid,a.reid,a.recount,b.username,b.face,b.domain FROM weibo_topic a,weibo_user b WHERE ( a.uid=b.id AND a.id=122 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='122' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined index: recount /data/wwwroot/default/weibo/weibo/Runtime/Cache/Home/297945e3053b9b0806e01a4c87378e3c.php 第 144 行.
+NOTIC: [8] Undefined index: recount /data/wwwroot/default/weibo/weibo/Runtime/Cache/Home/297945e3053b9b0806e01a4c87378e3c.php 第 144 行.
+NOTIC: [8] Undefined index: recount /data/wwwroot/default/weibo/weibo/Runtime/Cache/Home/297945e3053b9b0806e01a4c87378e3c.php 第 144 行.
+NOTIC: [8] Undefined index: recount /data/wwwroot/default/weibo/weibo/Runtime/Cache/Home/297945e3053b9b0806e01a4c87378e3c.php 第 144 行.
+NOTIC: [8] Undefined index: recount /data/wwwroot/default/weibo/weibo/Runtime/Cache/Home/297945e3053b9b0806e01a4c87378e3c.php 第 144 行.
+NOTIC: [8] Undefined index: recount /data/wwwroot/default/weibo/weibo/Runtime/Cache/Home/297945e3053b9b0806e01a4c87378e3c.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-06-12T19:03:00+08:00 ] 123.119.216.11 /weibo/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.content,a.content_over,a.create,a.uid,a.reid,b.username,b.face,b.domain FROM weibo_topic a,weibo_user b WHERE ( a.uid=b.id ) ORDER BY a.create DESC LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `weibo_image` [ RunTime:0.0003s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='148' )  [ RunTime:0.0001s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='147' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='146' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='145' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='144' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='143' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='142' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='141' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='140' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='122' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.content,a.content_over,a.create,a.uid,a.reid,a.recount,b.username,b.face,b.domain FROM weibo_topic a,weibo_user b WHERE ( a.uid=b.id AND a.id=147 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='147' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.content,a.content_over,a.create,a.uid,a.reid,a.recount,b.username,b.face,b.domain FROM weibo_topic a,weibo_user b WHERE ( a.uid=b.id AND a.id=145 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='145' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.content,a.content_over,a.create,a.uid,a.reid,a.recount,b.username,b.face,b.domain FROM weibo_topic a,weibo_user b WHERE ( a.uid=b.id AND a.id=140 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='140' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.content,a.content_over,a.create,a.uid,a.reid,a.recount,b.username,b.face,b.domain FROM weibo_topic a,weibo_user b WHERE ( a.uid=b.id AND a.id=122 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='122' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined index: recount /data/wwwroot/default/weibo/weibo/Runtime/Cache/Home/297945e3053b9b0806e01a4c87378e3c.php 第 144 行.
+NOTIC: [8] Undefined index: recount /data/wwwroot/default/weibo/weibo/Runtime/Cache/Home/297945e3053b9b0806e01a4c87378e3c.php 第 144 行.
+NOTIC: [8] Undefined index: recount /data/wwwroot/default/weibo/weibo/Runtime/Cache/Home/297945e3053b9b0806e01a4c87378e3c.php 第 144 行.
+NOTIC: [8] Undefined index: recount /data/wwwroot/default/weibo/weibo/Runtime/Cache/Home/297945e3053b9b0806e01a4c87378e3c.php 第 144 行.
+NOTIC: [8] Undefined index: recount /data/wwwroot/default/weibo/weibo/Runtime/Cache/Home/297945e3053b9b0806e01a4c87378e3c.php 第 144 行.
+NOTIC: [8] Undefined index: recount /data/wwwroot/default/weibo/weibo/Runtime/Cache/Home/297945e3053b9b0806e01a4c87378e3c.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-06-12T19:03:00+08:00 ] 123.119.216.11 /weibo/Home/Topic/ajaxCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `weibo_topic` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-06-12T19:03:00+08:00 ] 123.119.216.11 /weibo/Home/Space/setUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `weibo_user` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`domain` FROM `weibo_user` WHERE `username` = '鸣人' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-06-12T19:03:00+08:00 ] 123.119.216.11 /weibo/Home/Space/setUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `weibo_user` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`domain` FROM `weibo_user` WHERE `username` = '小弟' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-06-12T19:03:00+08:00 ] 123.119.216.11 /weibo/Home/Space/setUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `weibo_user` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`domain` FROM `weibo_user` WHERE `username` = '小弟' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-12T19:03:05+08:00 ] 123.119.216.11 /weibo/Home/Topic/ajaxList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.content,a.content_over,a.create,a.uid,a.reid,b.username,b.face,b.domain FROM weibo_topic a,weibo_user b WHERE ( a.uid=b.id ) ORDER BY a.create DESC LIMIT 10,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `weibo_image` [ RunTime:0.0003s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='121' )  [ RunTime:0.0001s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='120' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='119' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='118' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='117' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='116' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='115' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='114' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='113' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='112' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-06-12T19:03:05+08:00 ] 123.119.216.11 /weibo/Home/Space/setUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `weibo_user` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`domain` FROM `weibo_user` WHERE `username` = '梅西' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-06-12T19:03:05+08:00 ] 123.119.216.11 /weibo/Home/Space/setUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `weibo_user` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`domain` FROM `weibo_user` WHERE `username` = '路飞' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-06-12T19:03:05+08:00 ] 123.119.216.11 /weibo/Home/Space/setUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `weibo_user` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`domain` FROM `weibo_user` WHERE `username` = '鸣人' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-06-12T19:03:08+08:00 ] 123.119.216.11 /weibo/Home/Topic/ajaxList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `weibo_topic` [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.content,a.content_over,a.create,a.uid,a.reid,b.username,b.face,b.domain FROM weibo_topic a,weibo_user b WHERE ( a.uid=b.id ) ORDER BY a.create DESC LIMIT 20,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `weibo_image` [ RunTime:0.0003s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='111' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='110' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='109' )  [ RunTime:0.0000s ]
+SQL: SELECT `data` FROM `weibo_image` WHERE ( 1=1 AND tid='108' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-06-12T19:03:08+08:00 ] 123.119.216.11 /weibo/Home/Space/setUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `weibo_user` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`domain` FROM `weibo_user` WHERE `username` = '鸣人' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-06-12T19:03:08+08:00 ] 123.119.216.11 /weibo/Home/Space/setUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `weibo_user` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`domain` FROM `weibo_user` WHERE `username` = '梅西' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-06-12T19:03:10+08:00 ] 180.163.1.46 /weibo/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-06-12T19:03:10+08:00 ] 180.163.1.46 /weibo/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-06-12T19:03:15+08:00 ] 123.119.216.11 /weibo/User/logOut.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-06-12T19:03:16+08:00 ] 123.119.216.11 /weibo/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-06-12T19:03:16+08:00 ] 123.119.216.11 /weibo/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-06-12T19:03:25+08:00 ] 101.226.33.227 /weibo/User/logOut.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-06-12T19:03:28+08:00 ] 101.226.102.97 /weibo/User/logOut.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2017-06-12T19:03:29+08:00 ] 101.226.102.97 /weibo/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-06-12T19:03:30+08:00 ] 101.226.102.97 /weibo/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+

@@ -1,0 +1,15 @@
+<?php
+namespace Home\Controller;
+
+class IndexController extends HomeController {
+    public function index(){
+        if($this->Login()) {
+            $Topic=D('Topic');
+            $topicList=$Topic->getList(0,10);
+            $this->assign('topiclist',$topicList);
+            $this->assign('smallFace',session('user_auth')['face']->small);
+            $this->assign('bigFace',session('user_auth')['face']->big);
+            $this->display();
+        }
+    }
+}

@@ -1,0 +1,37 @@
+<?php
+namespace Home\Controller;
+
+use Think\Controller;
+
+class HomeController extends Controller{
+    protected function Login(){
+        //设置自动登录，在cookie存在，session不存在情况下
+        if(!is_null(cookie('auto')) && !session('?user_auto')){
+            //分别取出username,ip
+            $value=explode('|',encryption(cookie('auto'),1));
+            list($username,$ip)=$value;
+
+            if($ip==get_client_ip()){
+                $map['username']=$username;
+                $user=D('User');
+                $userObj=$user->field('id,username,last_login,face')->where($map)->find();
+                //记录要写入session和cookie的数据
+                $auth=array(
+                    'id'=>$userObj['id'],
+                    'username'=>$userObj['username'],
+                    'last_login'=>NOW_TIME,
+                    'face'=>json_decode($userObj['face'])
+                );
+                //写入session
+                session('user_auth',$auth);
+            }
+
+        }
+        //检测session是否存在
+        if(session('?user_auth')){
+            return 1;
+        }else{
+           $this->redirect('Login/index');
+        }
+    }
+}

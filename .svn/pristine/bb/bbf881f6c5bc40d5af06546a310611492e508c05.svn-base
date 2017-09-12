@@ -1,0 +1,23 @@
+<extend  name="Base/common"/>
+<block name="head">
+  <script type="text/javascript" src="__JS__/jquery.Jcrop.js"></script>
+  <script type="text/javascript" src="__JS__/setting.js"></script>
+  <link rel="stylesheet" href="__CSS__/setting.css">
+  <link rel="stylesheet" href="__CSS__/jquery.Jcrop.css">
+    <style type="text/css">
+        .crop_preview{position:absolute;width:120px; height:120px; overflow:hidden;}
+    </style>
+</block>
+<block name="main">
+  <div class="main_left">
+    <ul>
+      <li><a href="{:U('Setting/index')}">个人设置</a></li>
+      <li><a href="{:U('Setting/avatar')}" class="selected">头像设置</a></li>
+    </ul>
+  </div>
+  <div class="main_right">
+    <h2>头像设置</h2>
+      <img src="__ROOT__/Uploads/2017-05-13/550_59169ff0c40f8.jpg" alt="" id="face">
+      <span id="preview_box" class="crop_preview"><img id="crop_preview" src="__ROOT__/Uploads/2017-05-13/550_59169ff0c40f8.jpg" /></span>
+  </div>
+</block>

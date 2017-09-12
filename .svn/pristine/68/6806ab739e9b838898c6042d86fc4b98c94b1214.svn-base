@@ -1,0 +1,30 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+
+class SettingController extends HomeController{
+    //显示资料
+    public  function index(){
+        if($this->login()){
+            $User=D('User');
+            $this->assign('user',$User->getUser());
+            $this->display();
+        }
+    }
+    //更改用户数据
+    public function updateUser(){
+        if(IS_AJAX){
+            $User=D('User');
+            echo($User->updateUser(I('post.email'),I('post.intro')));
+        }else{
+            $this->error('非法访问');
+        }
+    }
+
+    //设置用户对象
+    public function  avatar(){
+        if($this->login()){
+            $this->display();
+        }
+    }
+}

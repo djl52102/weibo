@@ -1,0 +1,32 @@
+<extend  name="Base/common"/>
+<block name="head">
+  <script type="text/javascript" src="__JS__/jquery.Jcrop.js"></script>
+  <script type="text/javascript" src="__JS__/setting.js"></script>
+  <script type="text/javascript" src="__UPLOAD__/jquery.uploadify.min.js"></script>
+  <link rel="stylesheet" href="__CSS__/setting.css">
+  <link rel="stylesheet" href="__CSS__/jquery.Jcrop.css">
+  <link rel="stylesheet" href="__UPLOAD__/uploadify.css">
+</block>
+<block name="main">
+  <div class="main_left">
+    <ul>
+      <li><a href="{:U('Setting/index')}">个人设置</a></li>
+      <li><a href="{:U('Setting/avatar')}" class="selected">头像设置</a></li>
+    </ul>
+  </div>
+  <div class="main_right">
+      <h2>头像设置</h2>
+      <div class="face">
+          <img id="face" src="__IMG__/big.jpg">
+          <span id="preview_box" class="crop_preview"><img id="crop_preview" src="__IMG__/big.jpg" /></span>
+          <input type="hidden" name="x" id="x">
+          <input type="hidden" name="y" id="y">
+          <input type="hidden" name="w" id="w">
+          <input type="hidden" name="h" id="h">
+          <input type="hidden" name="url" id="url">
+          <a href="javascript:void(0)" class="save" style="display:none;margin:10px 0 0 0">保存</a>
+          <a href="javascript:void(0)" class="cancel" style="display:none;margin:10px 0 0 0">取消</a>
+          <input type="file" name="file" id="file">
+      </div>
+  </div>
+</block>

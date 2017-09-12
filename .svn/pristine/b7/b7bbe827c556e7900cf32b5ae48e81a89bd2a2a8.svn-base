@@ -1,0 +1,20 @@
+<?php
+namespace Home\Controller;
+
+class SpaceController extends HomeController {
+    //显示主页
+    public function index($id = 0){
+        if ($this->login()) {
+            if ($id == 0) $this->error('非法访问！');
+            $User = D('User');
+            $getUser = $User->getUser($id);
+            if ($getUser) {
+                $this->assign('user', $getUser);
+                $this->assign('bigFace', json_decode($getUser[0]['face'])->big);
+                $this->display();
+            } else {
+                $this->error('非法访问！');
+            }
+        }
+    }
+}

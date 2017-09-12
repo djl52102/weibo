@@ -1,0 +1,21 @@
+<head>
+  <meta charset="UTF-8">
+  <title>微博系统--我的首页</title>
+  <script type="text/javascript" src="__JS__/jquery.js"></script>
+  <script type="text/javascript" src="__JS__/jquery-ui.js"></script>
+  <script type="text/javascript" src="__JS__/base.js"></script>
+  <link rel="stylesheet" href="__CSS__/jquery-ui.css">
+  <link rel="stylesheet" href="__CSS__/base.css">
+  <block name="head"></block>
+    <script type="text/javascript">
+        var ThinkPHP={
+            'MODULE':'__MODULE__',
+            'IMG':'__PUBLIC__/{:MODULE_NAME}/img',
+            'FACE':'__PUBLIC__/{:MODULE_NAME}/face',
+            'INDEX':'{:U("Index/index")}',
+            'UPLOADIFY':'__UPLOAD__',
+            'UPLOADER':'{:U("File/upload")}',
+            'ROOT':'__ROOT__'
+        }
+    </script>
+</head>
